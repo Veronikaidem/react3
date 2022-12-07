@@ -1,85 +1,7 @@
 import React, {useEffect, useState } from 'react';
 import './App.css';
 
-//FIRST HOMEWORK
-
-// const Parent = ()=> {const usersArray = [
-//   // { id:1, name: 'Veronika'}, 
-//   // { id:2, name: 'Someone'}
-// ]
-//   return (
-//    <>
-//   <Child usersArray = {usersArray} isUserLoggedIn = {true} />
-//   </>
-//   );
-// }
-
-
-
-// const Child = ({usersArray, isUserLoggedIn})=>{
-//   if(!isUserLoggedIn){
-//     return <h1>You aren't authorized</h1>
-//   }
-
-
-//   return (
-//   <div>
-// {usersArray.length > 0 ? (
-//    <>
-// {usersArray.map((item)=>{
-//   return <h1 key={item.id}>{item.name}</h1>;
-//    })} 
-//   </>
-//   ): (  <h1>array is empty</h1> 
-//   )}
-//   </div>
-//   );
-  
-// };
-
-// const App=() => {
-//   return <div> <Parent/></div>
-// }
-// function App() {
-//   return (
-//     <div className="App">
-//      <h1>hello Veronika</h1>
-//     </div>
-//   );
-// }
-
-
-
-//SECOND HOMEWORK
-// const Wrapper=({children})=>{
-// return <div>
-//   <Navbar/>
-//   {children}
-//   <Footer/>
-// </div>
-// }
-
-// const Navbar=()=>{
-//   return <h1>some text here</h1>
-// }
-
-// const Footer=()=>{
-//   return <h1>some other text here</h1>
-// }
-
-
-// const App=() => {
-//   return <div> <Wrapper>
-//     <h1>veronique</h1>
-//     <h2>idontknowwhat</h2>
-//     <div> <p>lorem ipsum</p> </div>
-//   </Wrapper>
-
-//   </div>
-// }
-
-
-//NEW WORKSHOP
+//last try
 const generateUsers = () => {
   let users = [ 'someone', 'someone1', 'someone2', 'someone3', 'someonehelpme'
   ];
@@ -110,6 +32,16 @@ function App() {
   );
 }
 
+
+
+
+
+
+
+
+
+
+//garbage
 
 
 // const generateUsers = ()=>{
